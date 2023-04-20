@@ -10,12 +10,14 @@ public class Main {
         int opcion;
         int indice;
         do {
+            System.out.println("===  ===");
             System.out.println("=== Menú principal ===");
             System.out.println("1. Añadir producto");
             System.out.println("2. Borrar producto");
             System.out.println("3. Modificar producto");
             System.out.println("4. Ver listado de productos");
             System.out.println("5. Salir");
+            System.out.println("===  ===");
             System.out.print("Selecciona una opción: ");
             opcion = scanner.nextInt();
             scanner.nextLine();
