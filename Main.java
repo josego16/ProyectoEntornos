@@ -68,9 +68,15 @@ public class Main {
                 }
                 case 4 -> {
                     System.out.println("=== Listado de productos ===");
+<<<<<<< HEAD
                     for (int index = 0; index < productos.size(); index++) {
                         Producto productoAMostrar = productos.get(index);
                         System.out.println(index + ". " + productoAMostrar.getNombre() + " - $" + productoAMostrar.getPrecio());
+=======
+                    for (int i = 0; i < productos.size() - 1; i++) {
+                        Producto productoAMostrar = productos.get(i);
+                        System.out.println(i + ". " + productoAMostrar.getNombre() + " - $" + productoAMostrar.getPrecio());
+>>>>>>> rama1
                     }
 
                     System.out.println("============================");
